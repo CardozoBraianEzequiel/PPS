@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Cultura para niños</string>
+    <string name="title_activity_main">Cultura para niños</string>
+    <string name="package_name">com.braian.cpn</string>
+    <string name="custom_url_scheme">com.braian.cpn</string>
+</resources>

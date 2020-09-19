@@ -78,7 +78,6 @@
         background-color: #aaaaaa;
         height:100%;
         width:100%;
-        animation: pulse 1s linear forwards;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -100,13 +99,43 @@
         animation: animation 3100ms linear infinite both;
         animation-delay: 1s;
         border-radius: 5%;
+        animation: pulse 1s linear forwards;
       }
 
       @keyframes pulse {
         0% {
           opacity:0;
+          transform: rotate(0deg);
+        }
+        10%{
+          transform: rotate(15deg);
+        }
+        20%{
+          transform: rotate(0deg);
+        }
+        30%{
+          transform: rotate(-15deg);
+        }
+        40%{
+          transform: rotate(0deg);
+        }
+        50%{
+          transform: rotate(15deg);
+        }
+        60%{
+          transform: rotate(0deg);
+        }
+        70%{
+          transform: rotate(-15deg);
+        }
+        80%{
+          transform: rotate(0deg);
+        }
+        90%{
+          transform: rotate(15deg);
         }
         100% {
+          transform: rotate(0deg);
           opacity:1;
         }
       }
